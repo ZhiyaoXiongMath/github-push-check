@@ -1,0 +1,19 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Editor and system artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Temporary verification artifacts
+__pycache__/
+.pytest_cache/
+*.pyc
+*.log
+*.tmp
+*.bak

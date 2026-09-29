@@ -1,0 +1,7 @@
+interface:
+  display_name: "GitHub 推送检查与版本发布"
+  short_description: "备份并清理项目、补齐中英双语 README，检查或补齐当前版本的 tag 和 Release"
+  default_prompt: "使用 $github-push-check 备份项目并创建 clean version，检查并补齐中英双语 README 的六项要求、清理六类公开风险，复查后推送；检查当前版本是否适合发布，有则检查、缺则补齐对应 tag、Release 标题、简洁说明和当前功能，推送 tag 并发布 GitHub Release。"
+
+policy:
+  allow_implicit_invocation: true
